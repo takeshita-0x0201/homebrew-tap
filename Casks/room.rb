@@ -7,7 +7,7 @@ cask "room" do
   desc "Tiny macOS menu bar app for memory and storage"
   homepage "https://github.com/takeshita-0x0201/room"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Room.app"
 
